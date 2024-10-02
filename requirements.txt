@@ -1,0 +1,4 @@
+zmq==0.0.0
+fastapi[all]==0.111.1
+requests==2.32.3
+pytest==8.3.3
