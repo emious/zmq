@@ -54,7 +54,7 @@ If the command type is `os`, it executes a specified command on the server.
 #### Manual Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/emious/zmq.git
    cd <repository-directory>
    ```
 2. Install dependencies:
@@ -73,6 +73,6 @@ URL: [http://127.0.0.1:8100/api/v1/command](http://127.0.0.1:8100/api/v1/command
 ## Unit Test
 To run tests:
 ```bash
-cd zmq/src/unit_test
+cd repository-directory>/src/unit_test
 pytest test_api_command.py
 ```
